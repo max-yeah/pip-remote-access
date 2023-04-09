@@ -1,6 +1,6 @@
 # Explanation:
 
-This is Simple Python Reverse Shell module. It is a poc of how attackers can exploit `pip install` by publishing a crafed malicious package to Pypi. For CMPT785 course assignment2.
+It's important to be aware that packages installation via `pip install` command have the ability to execute python code as part of the install process. For CMPT785 course assignment2 poc usage - requirements.txt has `--extra-index-url` to point to private registry but pip install will check Pypi first. By uploading malicious package with the same name in Pypi, program will download the malicious version and pip install can give a reverse shell to the attacker.
 
 
 
